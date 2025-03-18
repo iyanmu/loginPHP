@@ -1,6 +1,3 @@
-Berikut adalah versi terbaru dari `README.md` yang sudah ditambahkan dengan preview gambar:
-
-```markdown
 # LoginPHP
 
 Sebuah sistem login sederhana yang dibangun menggunakan PHP dan MySQL. Proyek ini dirancang untuk memungkinkan pengguna mendaftar, login, dan mengakses halaman yang dilindungi.
@@ -42,54 +39,3 @@ Anda dapat mencoba demo proyek ini di [Demo LoginPHP](https://iyanmu.github.io/l
 1. **Clone repositori ini**:
    ```bash
    git clone https://github.com/iyanmu/loginPHP.git
-   ```
-2. **Buka folder proyek**:
-   ```bash
-   cd loginPHP
-   ```
-3. **Import database**:
-   - Buka phpMyAdmin atau alat manajemen database lainnya.
-   - Buat database baru dengan nama `loginphp`.
-   - Import file SQL yang ada di folder `database/loginphp.sql` ke database yang baru dibuat.
-
-4. **Konfigurasi koneksi database**:
-   - Buka file `config/db.php`.
-   - Sesuaikan detail koneksi database sesuai dengan lingkungan Anda:
-     ```php
-     $host = 'localhost'; // Host database
-     $dbname = 'loginphp'; // Nama database
-     $username = 'root'; // Username database
-     $password = ''; // Password database
-     ```
-
-5. **Jalankan proyek**:
-   - Letakkan folder proyek di direktori `htdocs` (jika menggunakan XAMPP) atau direktori root server web Anda.
-   - Buka browser dan akses `http://localhost/loginPHP`.
-
-## Struktur Proyek
-
-```
-loginPHP/
-├── assets/          # File CSS, JS, dan gambar
-├── config/          # File konfigurasi (koneksi database)
-├── database/        # File SQL untuk database
-├── includes/        # File PHP yang digunakan di beberapa halaman
-├── pages/           # Halaman-halaman aplikasi
-├── index.php        # Halaman utama
-├── login.php        # Halaman login
-├── register.php     # Halaman registrasi
-├── dashboard.php    # Halaman dashboard (terproteksi)
-└── logout.php       # Logout pengguna
-```
-
-## Kontribusi
-
-Jika Anda ingin berkontribusi pada proyek ini, silakan buka [issue](https://github.com/iyanmu/loginPHP/issues) atau ajukan pull request. Semua kontribusi sangat dihargai!
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
-
----
-
-Selamat mencoba! Jika Anda memiliki pertanyaan atau masukan, silakan hubungi saya. 😊
